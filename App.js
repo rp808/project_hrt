@@ -1,12 +1,13 @@
 import React from 'react';
 import { Alert, StyleSheet, Text, View, ScrollView, Image ,TouchableOpacity } from 'react-native';
 import SignIn from './assets/Components/SignIn';
-
+import SignUp from './assets/Components/SignUp';
 
 const App = () => { 
   return (
     <View style={styles.container}>
-       <SignIn/>
+       {/* <SignIn/> */}
+       <SignUp/>
 
 
     </View>
