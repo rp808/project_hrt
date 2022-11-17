@@ -4,6 +4,7 @@ import SignIn from './assets/Components/SignIn';
 import SignUp from './assets/Components/SignUp';
 import GetStarted from './assets/Components/GetStarted';
 import TranProgress from './assets/Components/TranProgress';
+import TranApproved from './assets/Components/TranApproved';
 
 const App = () => { 
   return (
@@ -11,7 +12,8 @@ const App = () => {
        {/* <SignIn/> */}
        {/* <SignUp/> */}
         {/* <GetStarted/> */}
-        <TranProgress/>
+        {/* <TranProgress/> */}
+        {/* <TranApproved/> */}
 
     </View>
   );

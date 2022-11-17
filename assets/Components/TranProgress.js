@@ -14,14 +14,7 @@ const TranProgress = () => {
       <View style={styles.first}>
       <Text style={styles.msg}>Transaction in </Text>
       <Text style={styles.msg}>progress</Text>
-      </View>
-      
-      
- 
- 
-     
- 
-     
+      </View>   
     </View>
   )
 }
