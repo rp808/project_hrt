@@ -3,13 +3,15 @@ import { Alert, StyleSheet, Text, View, ScrollView, Image ,TouchableOpacity } fr
 import SignIn from './assets/Components/SignIn';
 import SignUp from './assets/Components/SignUp';
 import GetStarted from './assets/Components/GetStarted';
+import TranProgress from './assets/Components/TranProgress';
 
 const App = () => { 
   return (
     <View style={styles.container}>
        {/* <SignIn/> */}
        {/* <SignUp/> */}
-        <GetStarted/>
+        {/* <GetStarted/> */}
+        <TranProgress/>
 
     </View>
   );
