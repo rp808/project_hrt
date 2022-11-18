@@ -7,6 +7,7 @@ import TranProgress from './assets/Components/TranProgress';
 import TranApproved from './assets/Components/TranApproved';
 import LuxuryCar from './assets/Components/LuxuryCar';
 import CarType from './assets/Components/CarType';
+import Adjust from './assets/Components/Adjust';
 
 
 const App = () => { 
@@ -17,8 +18,8 @@ const App = () => {
         {/* <GetStarted/> */}
         {/* <TranProgress/> */}
         {/* <TranApproved/> */}
-        {/* <LuxuryCar/> */}
-     <CarType/>
+     <Adjust/>
+     {/* <CarType/> */}
 
     </View>
   );
