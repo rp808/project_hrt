@@ -5,6 +5,9 @@ import SignUp from './assets/Components/SignUp';
 import GetStarted from './assets/Components/GetStarted';
 import TranProgress from './assets/Components/TranProgress';
 import TranApproved from './assets/Components/TranApproved';
+import LuxuryCar from './assets/Components/LuxuryCar';
+import CarType from './assets/Components/CarType';
+
 
 const App = () => { 
   return (
@@ -14,6 +17,8 @@ const App = () => {
         {/* <GetStarted/> */}
         {/* <TranProgress/> */}
         {/* <TranApproved/> */}
+        {/* <LuxuryCar/> */}
+     <CarType/>
 
     </View>
   );
