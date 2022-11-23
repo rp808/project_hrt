@@ -13,22 +13,22 @@ const Welcome = () => {
         <Text style={styles.Text1}>Where to begin</Text>
         
         <View style={styles.rectangleView}>
-        <Image source={require("../assets/pageview.png")} style={styles.Img}></Image>
+        <Image source={require("./src/pageview.png")} style={styles.Img}></Image>
         <Text style={styles.Text}>Browse</Text>
         </View>
 
         <View style={styles.rectangleView2}>
-        <Image source={require("../assets/car_rent.png")} style={styles.Img}></Image>
+        <Image source={require("./src/car_rent.png")} style={styles.Img}></Image>
         <Text style={styles.Text}>Select</Text>
         </View>
 
         <View style={styles.rectangleView3}>
-        <Image source={require("../assets/calendar_month.png")}style={styles.Img}></Image>
+        <Image source={require("./src/calendar_month.png")}style={styles.Img}></Image>
         <Text style={styles.Text}>Book Dates</Text>
         </View>
 
         <View style={styles.rectangleView4}>
-        <Image source={require("../assets/credit_card.png")} style={styles.Img}></Image>
+        <Image source={require("./src/credit_card.png")} style={styles.Img}></Image>
         <Text style={styles.Text}>Pay</Text>
         </View>
 

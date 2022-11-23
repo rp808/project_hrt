@@ -12,10 +12,24 @@ import Calendar from './assets/Components/Calendar';
 import Product from './assets/Components/Product';
 import Product2 from './assets/Components/Product2';
 import Summary from './assets/Components/Summary';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import Welcome from './assets/Components/Welcome';
+const Stack = createNativeStackNavigator();
 const App = () => { 
   return (
     <View style={styles.container}>
-       <SignIn/>
+       <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen
+          name="SignIn"
+          component={SignIn}
+          options={{ title: 'Home screen' }}
+        />
+        <Stack.Screen name="Welcome" component={Welcome} />
+      </Stack.Navigator>
+    </NavigationContainer>
+       {/* <SignIn/> */}
        {/* <SignUp/> */}
         {/* <GetStarted/> */}
         {/* <TranProgress/> */}
