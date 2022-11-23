@@ -10,11 +10,14 @@ import {
     Linking,
     ScrollView,
 } from "react-native";
+import CarType from "./CarType";
 
 const Adjust = () => {
     return (
-        <View  style={styles.container}>
       
+        <View  style={styles.container}>
+     
+     
        <ScrollView>
        <View  style={styles.row}>
         <View style={[styles.demo,styles.shadowProp]}>

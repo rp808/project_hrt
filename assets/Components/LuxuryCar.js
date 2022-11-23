@@ -15,10 +15,12 @@ import Adjust from "./Adjust";
 
 const LuxuryCar = () => {
   return (
-    <View  style={styles.container}>
-      <View  style={styles.cartype}><CarType/></View>
-      <View style={styles.displaycar}> <Adjust/></View>
-    </View>
+<Adjust/>
+    
+    // <View  style={styles.container}>
+    //   <View  style={styles.cartype}><CarType/></View>
+    //   <View style={styles.displaycar}> <Adjust/></View>
+    // </View>
   )
 }
 const styles = StyleSheet.create({

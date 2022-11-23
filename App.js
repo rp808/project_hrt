@@ -8,19 +8,25 @@ import TranApproved from './assets/Components/TranApproved';
 import LuxuryCar from './assets/Components/LuxuryCar';
 import CarType from './assets/Components/CarType';
 import Adjust from './assets/Components/Adjust';
-
-
+import Calendar from './assets/Components/Calendar';
+import Product from './assets/Components/Product';
+import Product2 from './assets/Components/Product2';
+import Summary from './assets/Components/Summary';
 const App = () => { 
   return (
     <View style={styles.container}>
-       {/* <SignIn/> */}
+       <SignIn/>
        {/* <SignUp/> */}
         {/* <GetStarted/> */}
         {/* <TranProgress/> */}
         {/* <TranApproved/> */}
-     <Adjust/>
+     {/* <Adjust/> */}
      {/* <CarType/> */}
-
+     {/* <LuxuryCar/> */}
+     {/* <Calendar/> */}
+{/* <Product2/> */}
+{/* <Product/> */}
+{/* <Summary/> */}
     </View>
   );
 }
