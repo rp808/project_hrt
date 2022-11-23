@@ -2,11 +2,10 @@ import React from "react";
 import { View, Text, Image, StyleSheet, ScrollView, TouchableOpacity, onPress } from 'react-native';
 
 
-<<<<<<< HEAD
+
 const Product = () => {
-=======
-const Product2 = () => {
->>>>>>> 20494a3be7cb9f5ea7477ac1a635015e5e5aeca9
+
+
     return (
         <View style={styles.container}>
               <Image style={styles.icon}
@@ -250,8 +249,5 @@ const styles =
         }
     })
 
-<<<<<<< HEAD
+
 export default Product;
-=======
-export default Product2;
->>>>>>> 20494a3be7cb9f5ea7477ac1a635015e5e5aeca9
