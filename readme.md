@@ -1,6 +1,6 @@
 ## Mobile app screenshots:
 
-![Turbo App](https://raw.githubusercontent.com/USERNAME/REPO-NAME/BRANCH-NAME/Turbo_app.jpeg)
+![Turbo App](https://raw.githubusercontent.com/rp808/project_hrt/master/Turbo_app.jpeg)
 
 ![Turbo Logo](https://raw.githubusercontent.com/USERNAME/REPO-NAME/BRANCH-NAME/Turbo_Logo.jpeg)
 
